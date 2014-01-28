@@ -2,7 +2,6 @@ Utility code(miscellaneous)
 ===========================
 
 This is actually a collection of utility objects; focusing on reuse, easy maintenance and extensibility.
-
 #1) MXRavenDbSessionHelper - This helper class is about setting up a session factory for RavenDb(using .Net 4 thread safe singleton pattern). Also enclosed are some useful tips in setting up the NoSql RavenDb.
 
 #2) MXLuceneSessionHelper - This helper class applies a thread safe singleton pattern to create Searcher and Writer objects as it's recommended to create them only once. Also the searcher gets reinitialized, if any write happens.
